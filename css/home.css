@@ -16,8 +16,6 @@ body{
 }
 
 
-
-
 /*==========================*/
 /*       头部             */
 /*==========================*/
@@ -25,7 +23,10 @@ body{
 .header{
    width: 100%;
    height: 113px;
+   top: 0px;
    background-color: rgba(0,0,0,0.5);
+   margin-top: 0px;
+   position: absolute;
    /* 元素框从文档流完全删除去,就好像元素不存在一样 元素定位后生成一个块级框,而不论原来他在正常流中生成何种类型框 */
    position: fixed;
    /* 设置图片居中 */
