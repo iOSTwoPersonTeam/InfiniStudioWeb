@@ -168,14 +168,38 @@ div.commany_logo img{
 /*====================================*/
 /*           列表图片展示            */
 /*================================*/
-/* */
+/* 首先设置每一个视频图片居中 */
+.content_listImage{
+   width: 100%;
+   height: 830px;
+   text-align: center;
+}
 
+/* 接下来规定列表图片的位置尺寸 */
+.news_item{
+  width: 28%;
+  height: 150px;
+  float: left;
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.5)
+}
 
+/* 设置背景图片 */
+.news_item{
+  width: 100%;
+  height: 78%;
+  border-radius: 3px;
+}
 
-
-
-
-
+/*  设置图片文字 */
+.news_item p{
+  text-align: center;
+  padding: 5px;
+  color: rgba(0,0,0,0.5);
+}
 
 
 
