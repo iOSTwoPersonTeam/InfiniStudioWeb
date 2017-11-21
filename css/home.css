@@ -202,15 +202,67 @@ div.commany_logo img{
 }
 
 
+/*===============================*/
+/*           尾部             */
+/*=============================*/
+/* 设置尾部距离 */
+.footer{
+  width: 100%;
+  height: 215px;
+  background-color: rgb(224,224,224);
+  margin-bottom: 40px;
+}
+
+/* 更改尾部图片大小 */
+.footer img{
+    width: 36px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+/* 更改文字大小 */
+.footer p{
+  color: gray;
+  padding: 3px 0px;
+  font-size: 15px;
+}
+
+table{
+  width: 100%
+}
 
 
+td.one{
+  width: 48%;
+  text-align: right;
+  /* 设置元素的垂直对齐方式 */
+  vertical-align: top;
+}
 
+td.two{
+  width: 1%;
+  text-align: center;
+  height: 100%;
+}
 
+.vertical_line{
+  margin-top: 5px;
+  height: 195px;
+  width: 1px;
+  background-color: gray;
+  opacity: 0.2;
+}
 
+td.three{
+  width: 48%;
+  text-align: left;
+}
 
-
-
-
+img.footer_logo{
+  margin-top: -10px;
+  width: 145px;
+  height: 60px;
+}
 
 
 
