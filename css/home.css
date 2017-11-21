@@ -23,7 +23,8 @@ body{
 .header{
    width: 100%;
    height: 113px;
-   top: 0px;
+   /* 相对顶部位置 */
+   top: 0px;   
    background-color: rgba(0,0,0,0.5);
    margin-top: 0px;
    position: absolute;
@@ -115,6 +116,7 @@ li{
   padding: 5px 0px;
 }
 
+/* 轮播图下方的点部分*/
 .xiaodiandian{
   margin-top: 10px;
   text-align: center;
@@ -124,13 +126,42 @@ li{
   display: inline;
 }
 
+.content_introduce{
+   width: 100%;
+   height: 80px;
+}
 
+.line{
+  margin: 0px 10px;
+  background-color: gray;
+  height: 1px;
+  /* 透明opacity 调整元素透明度*/
+  opacity: 0.1;
+}
 
+/* 设置介绍文字的样式 */
+.introduce{
+  padding: 10px;
+  font-size: 13px;
+  color: darkgray;
+  line-height: normal;
+}
 
+/* 合作企业底部图片大小 */
+.content_company{
+   width: 100%;
+   height: 100px;
+}
 
+div.commany_logo{
+  text-align: center;
+}
 
-
-
+div.commany_logo img{
+   width: 60px;
+   height: 38px;
+   padding: 10px 10px 0px 10px;
+}
 
 
 
