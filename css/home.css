@@ -82,7 +82,8 @@ li{
 /*=================================*/
 .content{
   width: 70%;
-  height: 1620px;
+  height: 1520px;
+  /* auto 由浏览器计算外边距 */
   margin: auto;
 }
 
@@ -91,6 +92,7 @@ li{
 .content_top{
    width: 100%;
    height: 690px;
+   /* 外边距 顶部距离 */
    margin-top: 130px;
 }
 
@@ -108,11 +110,13 @@ li{
 }
 
 /* 设置提示语大小颜色 */
-.banner_title_bg{
+.content_banner .banner_title_bg{
   margin-top: -3px;
   text-align: center;
+  /* 文字部分背景色 */
   background-color: rgba(0,0,0,0.5);
   color:  white;
+  /* 设置内边距  上 右 下 左 */
   padding: 5px 0px;
 }
 
@@ -123,6 +127,7 @@ li{
 }
 
 .dian{
+  /* inline 设置元素为内联元素 元素前后没有换行符 */
   display: inline;
 }
 
@@ -154,7 +159,7 @@ li{
 }
 
 div.commany_logo{
-  /* 文字居中 */
+  /* 文字或元素居中 */
   text-align: center;
 }
 
@@ -168,37 +173,43 @@ div.commany_logo img{
 /*====================================*/
 /*           列表图片展示            */
 /*================================*/
-/* 首先设置每一个视频图片居中 */
+/* 首先设置每一个视频图片居中 整体区域 */
 .content_listImage{
    width: 100%;
    height: 830px;
    text-align: center;
+   margin-top: 0px;
 }
 
-/* 接下来规定列表图片的位置尺寸 */
+/* 接下来规定列表每个元素的整体的位置尺寸 */
 .news_item{
-  width: 28%;
-  height: 150px;
+  /* 这里社会组28% 主要是想一行 放入三列 23% * 3 = 84% 
+   具体看实际情况而定*/
+  width: 29%;
+  height: 160px;
   float: left;
   text-align: center;
-  margin: 20px;
+  margin: 15px;
   background-color: white;
+  /* 设置圆角 3px 像素 */
   border-radius: 3px;
+  /* 添加阴影属性 */
   box-shadow: 1px 1px 4px rgba(0,0,0,0.5)
 }
 
-/* 设置背景图片 */
-.news_item{
+/* 设置元素中背景图片 */
+.news_item img{
   width: 100%;
   height: 78%;
   border-radius: 3px;
 }
 
-/*  设置图片文字 */
+/*  设置元素中文字 */
 .news_item p{
   text-align: center;
   padding: 5px;
   color: rgba(0,0,0,0.5);
+  font-size: 14px;
 }
 
 
@@ -210,7 +221,7 @@ div.commany_logo img{
   width: 100%;
   height: 215px;
   background-color: rgb(224,224,224);
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 /* 更改尾部图片大小 */
